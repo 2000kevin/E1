@@ -1,27 +1,32 @@
-
-
-
-#include <iostream>
-using namespace std;;
-int  main ()
+//modificado por kevin perdomo oliva 
+//27-09-2022 programa modificado
+#include<iostream>
+using namespace std;
+int main()
+	//no se olvide de ingresar dos numeros
 {
-	float a,b;
-	cout<< " ingrese ab: " ; cin>>a>>b;
-	if (a > b)
+	float k,p;
+	cout<<"ingrese k p:"; cin>>k>>p;
+	if(k>p)
 	{
-	  cout<<a<< " es mayor a " <<b<<endl;
+		
+	  cout<<k<<" es mayor k "<<p<<endl;
 
 
-	} else {
+	}else{
 
-	  cout<<b<< " es mayor a " <<a<<endl;
+	  cout<<p<<" es mayor k "<<k<<endl;
 
 
 	}
 
-	return  0 ;
+	return 0;
+
+
+
 
 
 
 }
+//muchas  gracias ;) :)
 
